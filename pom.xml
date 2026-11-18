@@ -47,6 +47,13 @@
         </dependency>
 
         <!-- TODO R1: agrega aquí el driver JDBC del motor que elegiste (MySQL u Oracle). -->
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc11</artifactId>
+            <version>23.6.0.24.10</version>
+            <scope>runtime</scope>
+        </dependency>
+
 
         <!-- Pruebas: JUnit y H2 en memoria (no necesitan un servidor). -->
         <dependency>

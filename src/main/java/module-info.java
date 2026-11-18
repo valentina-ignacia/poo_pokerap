@@ -10,6 +10,7 @@ module cl.dsy1102.pokerap {
     requires javafx.controls;
     requires javafx.fxml;
     // TODO R1: agrega el módulo con las interfaces de JDBC.
+    requires java.sql;
     requires java.net.http;
     requires com.google.gson;
 
